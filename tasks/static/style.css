@@ -1,0 +1,79 @@
+body {
+  background-image:url('wallpaper1.jpg');
+  background-size: 100%;
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+  justify-content: space-between;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  color: #393939;
+  margin-top: 30px;
+  font-size: 40px;
+  background-color: rgba(190, 190, 190, 0.5);
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid rgba(235, 235, 235, 0.5);;
+}
+
+h2 {
+  color: #393939;
+  font-family: 'Pacifico', cursive;
+  font-weight: 600;
+  font-size: 22px;
+  margin: 0;
+}
+
+.card {
+  border: 2px solid #EBEBEB;
+  border-radius: 8px;
+  padding: 5px 8px 20px;
+  /*background-color: #bebebe4d;*/
+  background-color: rgba(190, 190, 190, 0.5);
+  margin-top: 40px;
+  margin-left: 40px;
+  flex: 1;
+  max-width: 200px;
+  position: relative;
+}
+
+.first, .second, .third {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0px 0px 0px 15px;
+}
+
+span {
+  color: white;
+}
+
+button {
+  background: transparent;
+  border: 0;
+ /* position: absolute;*/
+  right: 5px;
+  top: 10px;
+}
+
+button:hover svg {
+  fill: #EBEBEB;
+}
+
+button:hover {
+  cursor: pointer;
+}
